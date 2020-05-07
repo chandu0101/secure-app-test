@@ -1,0 +1,42 @@
+
+.login-email__title {
+    @include carbon--type-style("expressive-heading-03");
+}
+
+.login-email__register{
+    display: flex;
+    align-items: center;
+  margin-top: $spacing-02;
+  margin-bottom: $layout-03;;
+  span {
+      margin-right: $spacing-03;
+  }
+  
+}
+
+.login-email__from-container {
+    padding: 0;
+    width: 100%;
+    margin-bottom: $spacing-05;
+    > div {
+        padding: 0;
+    }
+}
+
+.login-email__from > div,input,button {
+    width: 100%;
+}
+.login-email__from-email-back {
+    display: flex;
+    svg {
+        margin-right: $spacing-03;
+        fill: $interactive-01;
+    }
+}
+
+.login-email__form--rm-forgot-password {
+    display: flex;
+    align-items: center;
+    margin-top: $spacing-05;
+    justify-content: space-between;
+}

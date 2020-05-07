@@ -1,0 +1,61 @@
+
+.landing-page {
+  padding: 0;
+}
+
+.landing-page__r1 {
+  height: calc(100vh - 3rem);
+}
+.landing-page-left {
+  background:linear-gradient(#491D8B, #78A9FF);
+  color:$ui-01;
+  padding-left: $spacing-08*2.5;
+  padding-top: $layout-06;
+}
+
+.landing-page-left__section {
+    margin-bottom: $layout-03;
+}
+
+.landing-page-left__section-logo {
+    @include carbon--type-style("expressive-heading-03");
+    @include carbon--font-weight("semibold");
+}
+
+.landing-page-left__section-logo-exp {
+    @include carbon--type-style("productive-heading-03");
+}
+
+.landing-page-left__section-features-container {
+    width: 300px;
+}
+
+.landing-page-left__section-feat {
+    @include carbon--type-style("expressive-heading-01");
+    @include carbon--font-weight("semibold");
+}
+
+.landing-page-left__section-feat-exp {
+    @include carbon--type-style("code-01");
+}
+
+
+.landing-page-right {
+  height: 100%;
+}
+
+.landing-page-right__r1 {
+    height: 10%;
+}
+
+.landing-page-right__r2 {
+    height: 80%;
+}
+
+.landing-page-right__r3 {
+    height: 10%;
+}
+
+.landing-page-right__copyRight {
+    @include carbon--type-style("code-01");
+}

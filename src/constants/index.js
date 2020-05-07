@@ -1,0 +1,3 @@
+
+
+export const LOCALSTORAGE_PREFIX = "SECURE_APP"
